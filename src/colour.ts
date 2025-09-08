@@ -1,0 +1,26 @@
+// Hotel Khattimly color palette
+// export const colours = {
+//   gold: '#FFD700',
+//   goldPrimary: '#d4af37', 
+//   goldLightest: '#FEFBEA', 
+//   goldBright: '#FBBF24', 
+//   lightGold: '#FFF8DC', 
+//   navy: '#1a2238',
+//   navy900: '#0a1124', 
+//   indigo900: '#3730A3', 
+//   metallicGold: '#D4AF37', 
+//   paleBlue: '#E4EDFF', 
+//   blue900: '#1E3A8A',
+//   white: '#FFFFFF',
+//   black: '#000000',
+//   grayLight: '#F3F4F6',
+//   grayMedium: '#D1D5DB',
+//   grayDark: '#374151',
+//   grayExtraDark: '#111827',
+//   orange: '#FF9800',
+//   blue: '#2563eb',
+//   pink: '#ec4899',
+//   green: '#22c55e',
+//   red: '#ef4444',
+  
+// };

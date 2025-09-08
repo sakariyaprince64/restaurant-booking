@@ -1,0 +1,92 @@
+@media (max-width: 320px) {
+	.rooms-mobile-tab-btn {
+		padding-left: 1.5rem !important;
+		padding-right: 1.5rem !important;
+	}
+}
+@media (min-width: 768px) {
+	footer {
+		padding-top: 3rem !important;
+		padding-bottom: 3rem !important;
+	}
+	footer .max-w-7xl {
+		display: grid !important;
+		grid-template-columns: repeat(4, 1fr) !important;
+		gap: 2rem !important;
+		align-items: start !important;
+	}
+	footer h3, footer h4 {
+		font-size: 1.25rem !important;
+		margin-bottom: 1rem !important;
+	}
+	footer ul {
+		font-size: 0.95rem !important;
+	}
+	footer p, footer li, footer a {
+		font-size: 0.95rem !important;
+		line-height: 1.6 !important;
+	}
+	footer .flex.space-x-4 {
+		gap: 1rem !important;
+	}
+}
+@media (max-width: 375px) {
+	/* Responsive tab buttons for Rooms page */
+	.rooms-mobile-tabs {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: 0.75rem !important;
+		background: transparent !important;
+		box-shadow: none !important;
+		border-radius: 0 !important;
+		align-items: stretch !important;
+		padding: 0 !important;
+	}
+	.rooms-mobile-tab-btn {
+		width: 100% !important;
+		border-radius: 0.75rem !important;
+		font-size: 1rem !important;
+		margin: 0 !important;
+		box-shadow: none !important;
+	}
+	.rooms-mobile-tab-btn.bg-gold-500 {
+		padding-left: 1.5rem !important;
+		padding-right: 1.5rem !important;
+		border-radius: 9999px !important;
+	}
+}
+@media (max-width: 375px) {
+	/* Stack the grid vertically and add spacing */
+	.contact-mobile-grid {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: 1.5rem !important;
+	}
+	/* Make cards full width and add margin */
+	.contact-mobile-card {
+		width: 100% !important;
+		margin: 0 auto 1rem auto !important;
+		box-sizing: border-box;
+	}
+	/* Center icon and stack content in hotel info rows */
+	.contact-mobile-row {
+		flex-direction: column !important;
+		align-items: center !important;
+		text-align: center !important;
+		gap: 0.5rem !important;
+	}
+	.contact-mobile-icon {
+		margin-bottom: 0.5rem !important;
+	}
+	.contact-mobile-content {
+		margin: 0 !important;
+	}
+	/* Make map full width and height */
+	.contact-mobile-map {
+		height: 220px !important;
+		min-height: 180px !important;
+		width: 100% !important;
+		border-radius: 1rem !important;
+		margin-bottom: 1rem !important;
+	}
+}

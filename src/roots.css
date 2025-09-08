@@ -1,0 +1,26 @@
+
+:root {
+   /* --primary: #D4AF37; */
+   --primary: #bc3535;
+  --secondary: #FFFFFF;
+  --nav-focus: #000000;
+  --bg-footer: #111827;
+   --text-primary: #374151;
+   --bg-card: #FFF8DC;
+   --heading-text: #1E3A8A;
+   --surface: #D1D5DB;
+   --bg-cta: #d4af37;
+  --highlight: #FFD700;
+   --overlay: #bc3535;
+  --accent: #1a2238;
+  --bg-map: #E4EDFF;
+  --text-secondary: #F3F4F6;
+   --backgroung-fb: #2563eb;
+   --bg-instagram: #ec4899; 
+  --bg-contact: #22c55e;
+  /* --gold-lightest: #FEFBEA; */
+  /* --navy-900: #0a1124;  */
+   /* --indigo-900: #3730A3;  */
+  /* --orange: #FF9800; */
+  /* --red: #ef4444;  */
+}
