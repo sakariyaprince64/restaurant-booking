@@ -157,7 +157,7 @@ const Rooms = () => {
   return (
   <div className="pt-20 min-h-screen" style={{ backgroundColor: 'var(--text-secondary)' }}>
       {/* Header */}
-  <section style={{ backgroundColor: 'var(--heading-text)', color: 'var(--secondary)' }} className="py-16">
+  <section style={{ backgroundColor: 'var(  --bg-footer)', color: 'var(--secondary)' }} className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">
             Our Rooms

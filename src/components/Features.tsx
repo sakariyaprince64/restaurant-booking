@@ -37,26 +37,26 @@ const Features = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {features.map((feature, index) => (
-            <div 
-              key={index}
-              className="rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group"
-              style={{ backgroundColor: 'var(--secondary)' }}
-            >
-              <div className="mb-6 flex justify-center">
-                <div className="p-3 rounded-full transition-colors duration-300"
-                  style={{ backgroundColor: 'var(--bg-card)' }}>
-                  {feature.icon}
+            {features.map((feature, index) => (
+              <div 
+                key={index}
+                className="rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group"
+                style={{ backgroundColor: 'var(--secondary)' }}
+              >
+                <div className="mb-6 flex justify-center">
+                  <div className="p-3 rounded-full transition-colors duration-300"
+                    style={{ backgroundColor: 'var(--bg-card)' }}>
+                    {feature.icon}
+                  </div>
                 </div>
+                <h3 className="font-serif text-xl font-semibold mb-3" style={{ color: 'var(--heading-text)' }}>
+                  {feature.title}
+                </h3>
+                <p style={{ color: 'var(--text-primary)' }} className="leading-relaxed">
+                  {feature.description}
+                </p>
               </div>
-              <h3 className="font-serif text-xl font-semibold mb-3" style={{ color: 'var(--heading-text)' }}>
-                {feature.title}
-              </h3>
-              <p style={{ color: 'var(--text-primary)' }} className="leading-relaxed">
-                {feature.description}
-              </p>
-            </div>
-          ))}
+            ))}
         </div>
       </div>
     </section>

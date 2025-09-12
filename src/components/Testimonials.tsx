@@ -51,7 +51,7 @@ const Testimonials = () => {
   };
 
   return (
-  <section style={{ backgroundColor: 'var(--heading-text)', color: 'var(--secondary)' }} className="py-20">
+  <section style={{ backgroundColor: 'var(  --bg-footer)', color: 'var(--secondary)' }} className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">

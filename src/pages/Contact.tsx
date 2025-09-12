@@ -32,7 +32,7 @@ const Contact = () => {
   return (
   <div className="pt-20 min-h-screen" style={{ backgroundColor: 'var(--text-secondary)' }}>
       {/* Header */}
-  <section style={{ backgroundColor: 'var(--heading-text)', color: 'var(--secondary)' }} className="py-16">
+  <section style={{ backgroundColor: 'var( --bg-footer)', color: 'var(--secondary)' }} className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">
             Contact Us
@@ -154,7 +154,7 @@ const Contact = () => {
                       <p style={{ color: 'var(--text-primary)' }}>+91 87654 32109</p>
                     </div>
                   </div>
-
+                  
                   <div className="flex items-start contact-mobile-row">
                     <div className="p-3 rounded-full contact-mobile-icon" style={{ backgroundColor: 'var(--bg-card)' }}>
                       <Mail className="w-6 h-6" style={{ color: 'var(--primary)' }} />
